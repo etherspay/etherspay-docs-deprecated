@@ -16,10 +16,6 @@ The following blockchains are supported by Etherspay:
 * Binance Smart Chain
 * Polygon
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
-
 ## Supported coins
 
 All coins are supported as long as they follow the ERC20 token standard and are deployed to one of the supported blockchains.
@@ -30,4 +26,4 @@ The ERC20 token standard is available [here](https://github.com/ethereum/EIPs/bl
 
 ## Github
 
-{% embed url="https://github.com/rayorole" %}
+{% embed url="https://github.com/etherspay" %}
