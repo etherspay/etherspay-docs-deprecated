@@ -9,30 +9,29 @@ The Etherspay NPM SDK is used to integrate ERC20 payments for websites.
 Using NPM:
 
 ```makefile
-npm install etherspay-sdk
+npm install etherspay
 ```
 
 Using Yarn:
 
 ```
-yarn add etherspay-sdk
+yarn add etherspay
 ```
 
-### Usage
+### Initialize Etherspay.js
 
 {% tabs %}
 {% tab title="Javascript" %}
 ```javascript
-import { etherspay } from 'etherspay';
-const etp = new etherspay('your_api_key_here');
-
-etp.bsc.createInvoice('0x05f2h78', 5000);
+import { Etherspay } from 'etherspay';
+const etp = new Etherspay({ project_id: '...', project_secret: '...' });
 ```
 {% endtab %}
 
 {% tab title="Typescript" %}
 ```typescript
-const etherspay = require('etherspay');
+import { Etherspay } from 'etherspay';
+const etp = new Etherspay({ project_id: '...', project_secret: '...' });
 ```
 {% endtab %}
 {% endtabs %}

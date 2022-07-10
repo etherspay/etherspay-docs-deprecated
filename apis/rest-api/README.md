@@ -1,16 +1,16 @@
 # REST API
 
-The Etherspay REST API returns [<mark style="color:green;">JSON-encoded</mark>](http://www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.
+The Etherspay REST API returns [<mark style="color:green;">JSON-encoded</mark>](http://www.json.org/) responses, and uses standard HTTP response codes, authentication, and verbs.
 
 ## API reference
 
 
 
-The etherspay API is organized around [<mark style="color:green;">REST</mark>](http://en.wikipedia.org/wiki/Representational\_State\_Transfer). The API has predictable resource-oriented URLs, accepts [<mark style="color:green;">form-encoded</mark>](https://en.wikipedia.org/wiki/POST\_\(HTTP\)#Use\_for\_submitting\_web\_forms) request bodies, returns [<mark style="color:green;">JSON-encoded</mark>](http://www.json.org) responses, and uses standard HTTP response codes, authentication, and verbs.
+The etherspay API is organized around [<mark style="color:green;">REST</mark>](http://en.wikipedia.org/wiki/Representational\_State\_Transfer). The API has predictable resource-oriented URLs, accepts [<mark style="color:green;">form-encoded</mark>](https://en.wikipedia.org/wiki/POST\_\(HTTP\)#Use\_for\_submitting\_web\_forms) request bodies, returns [<mark style="color:green;">JSON-encoded</mark>](http://www.json.org/) responses, and uses standard HTTP response codes, authentication, and verbs.
 
 API Base URL
 
-The API requires an authentication token to verify the user. Visit the [<mark style="color:green;">authentication</mark>](authentication-1.md) section for in depth information.
+The API requires an authentication token to verify the user. Visit the [<mark style="color:green;">authentication</mark>](authentication.md) section for in depth information.
 
 ```
 https://api.etherspay.com

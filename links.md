@@ -12,16 +12,16 @@
 
 ### Ethereum
 
-* **Etherscan:** [<mark style="color:green;">https://etherscan.io/</mark>](https://etherscan.io)<mark style="color:green;"></mark>
-* **Ethgasstation:** [<mark style="color:green;">https://ethgasstation.info/</mark>](https://ethgasstation.info)<mark style="color:green;"></mark>
+* **Etherscan:** [<mark style="color:green;">https://etherscan.io/</mark>](https://etherscan.io/)<mark style="color:green;"></mark>
+* **Ethgasstation:** [<mark style="color:green;">https://ethgasstation.info/</mark>](https://ethgasstation.info/)<mark style="color:green;"></mark>
 
 ### Polygon
 
-* **Polygonscan:** [<mark style="color:green;">https://polygonscan.com</mark>](https://polygonscan.com)<mark style="color:green;"></mark>
+* **Polygonscan:** [<mark style="color:green;">https://polygonscan.com</mark>](https://polygonscan.com/)<mark style="color:green;"></mark>
 
 ### Binance Smart Chain
 
-* **BscScan:** [<mark style="color:green;">https://bscscan.com/</mark>](https://bscscan.com)<mark style="color:green;"></mark>
+* **BscScan:** [<mark style="color:green;">https://bscscan.com/</mark>](https://bscscan.com/)<mark style="color:green;"></mark>
 
 ### Socials
 

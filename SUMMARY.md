@@ -12,13 +12,11 @@
 
 * [REST API](apis/rest-api/README.md)
   * [Authentication](apis/rest-api/authentication.md)
-  * [Errors](apis/rest-api/errors.md)
+  * [Error handling](apis/rest-api/error-handling.md)
   * [Routes](apis/rest-api/routes/README.md)
     * [User](apis/rest-api/routes/user.md)
     * [Invoices](apis/rest-api/routes/invoices.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
-  * [Authentication](apis/rest-api/authentication-1.md)
-  * [Error handling](apis/rest-api/error-handling.md)
 
 ## Tutorials
 
