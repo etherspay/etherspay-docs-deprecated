@@ -29,31 +29,3 @@ const etp = new Etherspay('15a49de6-6c90-495f-9c35-85ea89ebf5a8'); // Insert you
 ```
 {% endtab %}
 {% endtabs %}
-
-## Verify authentication
-
-{% swagger method="get" path=" " baseUrl="http://localhost:5000/v1/" summary="project secret auth" %}
-{% swagger-description %}
-Check if request are authenticated using your project secret
-{% endswagger-description %}
-
-{% swagger-parameter in="header" required="true" name="x-api-key" type="15a49de6-6c90-495f-9c35-85ea89ebf5a8" %}
-Your project secret
-{% endswagger-parameter %}
-
-{% swagger-response status="200: OK" description="Online" %}
-```javascript
-{
-    status: "Online"
-}
-```
-{% endswagger-response %}
-
-{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
-```javascript
-{
-    Unauthorized
-}
-```
-{% endswagger-response %}
-{% endswagger %}
