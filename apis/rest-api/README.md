@@ -16,12 +16,6 @@ The API requires an authentication token to verify the user. Visit the [<mark st
 https://api.etherspay.com
 ```
 
-{% hint style="success" %}
-**Base url:** [<mark style="color:green;">**https://api.etherspay.com**</mark>](https://api.etherspay.com)<mark style="color:green;">****</mark>
-{% endhint %}
-
-
-
 ### API status
 
 To get the API status you can make a GET request to [<mark style="color:green;">https://api.etherspay.com/status</mark>](https://api.etherspay.com/status)<mark style="color:green;"></mark>
