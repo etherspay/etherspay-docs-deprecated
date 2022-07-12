@@ -1,9 +1,8 @@
+---
+description: https://etherspay.com
+---
+
 # Links
-
-* **etherspay:** [<mark style="color:green;">https://etherspay.com</mark>](https://etherspay.com)<mark style="color:green;"></mark>
-* **github:** [<mark style="color:green;">https://github.com/etherspay</mark>](https://github.com/etherspay)<mark style="color:green;"></mark>
-
-****
 
 ### Track cryptocurrency prices
 
@@ -26,4 +25,5 @@
 ### Socials
 
 * **Twitter:** [<mark style="color:green;">https://twitter.com/etherspay</mark>](https://twitter.com/etherspay)<mark style="color:green;"></mark>
-* **Discord:** [<mark style="color:green;">https://discord.gg/xxx</mark>](https://discord.gg/xxx)<mark style="color:green;"></mark>
+* **Discord:** [<mark style="color:green;">https://discord.gg/sKS9PKHnrm</mark>](https://discord.gg/sKS9PKHnrm)<mark style="color:green;"></mark>
+* **Github:** [<mark style="color:green;">https://github.com/etherspay</mark>](https://github.com/etherspay)<mark style="color:green;"></mark>
