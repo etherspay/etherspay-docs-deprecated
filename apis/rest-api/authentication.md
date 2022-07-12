@@ -4,12 +4,56 @@ description: https://api.etherspay.com
 
 # Authentication
 
-The etherspay REST API uses API keys to authenticate requests. You can view and manage your API keys in [<mark style="color:green;">the Etherspay Dashboard</mark>](https://dashboard.etherspay.com).
-
-Test mode secret keys have the prefix `ep_test` and live mode secret keys have the prefix `ep_live`
+The etherspay REST API uses API keys to authenticate requests. You can view and manage your API keys in your [<mark style="color:green;">project</mark> ](https://etherspay.com/dashboard)<mark style="color:green;">settings</mark>.
 
 {% hint style="warning" %}
 Do not share your api key with anyone!
 {% endhint %}
 
 All API requests must be made over [HTTPS](http://en.wikipedia.org/wiki/HTTP\_Secure). Calls made over plain HTTP will fail. API requests without authentication will also fail.
+
+Insert your project secret in the **x-api-key** header.
+
+{% tabs %}
+{% tab title="cURL" %}
+```bash
+curl -X GET http://localhost:5000/v1 \
+    -H "x-api-key: 15a49de6-6c90-495f-9c35-85ea89ebf5a8"
+```
+{% endtab %}
+
+{% tab title="Node.js" %}
+```javascript
+const Etherspay = require('etherspay');
+const etp = new Etherspay('15a49de6-6c90-495f-9c35-85ea89ebf5a8'); // Insert your project key here
+```
+{% endtab %}
+{% endtabs %}
+
+## Verify authentication
+
+{% swagger method="get" path=" " baseUrl="http://localhost:5000/v1/" summary="project secret auth" %}
+{% swagger-description %}
+Check if request are authenticated using your project secret
+{% endswagger-description %}
+
+{% swagger-parameter in="header" required="true" name="x-api-key" type="15a49de6-6c90-495f-9c35-85ea89ebf5a8" %}
+Your project secret
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="Online" %}
+```javascript
+{
+    status: "Online"
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="Unauthorized" %}
+```javascript
+{
+    Unauthorized
+}
+```
+{% endswagger-response %}
+{% endswagger %}
