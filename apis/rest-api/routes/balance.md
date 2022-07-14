@@ -2,18 +2,18 @@
 description: https://api.etherspay.com
 ---
 
-# User
+# Balance
 
-### Fetching all user info
+### Fetching project balance
 
-You can fetch the current user account being used to access the API. The etherspay API will identify the user using the api key that is passed in with the request.
+You can fetch the current balance of your project being used to access the API. The etherspay API will identify the project using the project secret that is passed in with the request.
 
-{% swagger method="get" path="user" baseUrl="https://api.etherspay.com/" summary="Fetch all info from current user" %}
+{% swagger method="get" path="v1/balance" baseUrl="https://api.etherspay.com/" summary="Fetch balance from current project" %}
 {% swagger-description %}
 
 {% endswagger-description %}
 
-{% swagger-parameter in="header" name="api_key" type="String" required="true" %}
+{% swagger-parameter in="header" name="x-api-key" type="String" required="true" %}
 Your API key
 {% endswagger-parameter %}
 
@@ -66,31 +66,4 @@ Your API key
 ```
 {% endswagger-response %}
 {% endswagger %}
-
-### Fetching specific info only
-
-The API also allows you to fetch some specific info only, such as your account balance. This is achieved with the **method** parameter.
-
-{% swagger method="get" path="/user" baseUrl="https://api.etherspay.com" summary="Fetch specific user info only" %}
-{% swagger-description %}
-
-{% endswagger-description %}
-
-{% swagger-parameter in="header" name="api_key" type="String" required="true" %}
-Your API key
-{% endswagger-parameter %}
-
-{% swagger-parameter in="body" name="method" type="String" %}
-Method you want to call
-{% endswagger-parameter %}
-{% endswagger %}
-
-|   Methods   |
-| :---------: |
-|   username  |
-| avatar\_url |
-|     name    |
-|   company   |
-|    email    |
-|   balance   |
 

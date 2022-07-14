@@ -14,7 +14,7 @@
   * [Authentication](apis/rest-api/authentication.md)
   * [Error handling](apis/rest-api/error-handling.md)
   * [Routes](apis/rest-api/routes/README.md)
-    * [User](apis/rest-api/routes/user.md)
+    * [Balance](apis/rest-api/routes/balance.md)
     * [Invoices](apis/rest-api/routes/invoices.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
