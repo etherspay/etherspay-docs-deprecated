@@ -26,16 +26,16 @@ A Promotion Code represents a customer-redeemable code.
 
 ```json
 {
-            "id": "cl5n2ssco00048osj9szvjzk7",
-            "projectId": "cl5n2go7e00800csjh3tv6k8x",
-            "active": true,
-            "amount_off": null,
-            "code": "Y13",
-            "created_at": 1657926782,
-            "first_time_transaction": false,
-            "max_redemptions": null,
-            "min_amount": null,
-            "name": "PROMO",
-            "percent_off": null
+  "id": "cl5n2ssco00048osj9szvjzk7",
+  "name": "PROMO",
+  "code": "Y13",
+  "active": true,
+  "amount_off": null,
+  "created_at": 1657926782,
+  "first_time_transaction": false,
+  "max_redemptions": null,
+  "min_amount": null,
+  "percent_off": null
+  "projectId": "cl5n2go7e00800csjh3tv6k8x",
 }
 ```
