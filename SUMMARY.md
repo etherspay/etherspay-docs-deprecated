@@ -15,6 +15,7 @@
   * [Error handling](apis/rest-api/error-handling.md)
   * [Routes](apis/rest-api/routes/README.md)
     * [Balance](apis/rest-api/routes/balance.md)
+    * [Promotion Codes](apis/rest-api/routes/promotion-codes.md)
     * [Invoices](apis/rest-api/routes/invoices.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
