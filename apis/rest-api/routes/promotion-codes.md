@@ -18,4 +18,6 @@ A Promotion Code represents a customer-redeemable code.
 
 <mark style="color:blue;">**GET**</mark>          _/v1/promotion\_codes_
 
+<mark style="color:red;">**DELETE**</mark>    _/v1/promotion\_codes/:id_
+
 </details>
