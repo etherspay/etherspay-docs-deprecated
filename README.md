@@ -15,6 +15,7 @@ The following blockchains are supported by Etherspay:
 * Ethereum
 * Binance Smart Chain
 * Polygon
+* Testnets
 
 ## Supported tokens
 

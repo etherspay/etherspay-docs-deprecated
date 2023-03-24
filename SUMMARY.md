@@ -2,11 +2,8 @@
 
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
-* [Links](links.md)
 
-## Smart Contracts
-
-* [Etherspay Token ($EPT)](smart-contracts/etherspay-token-usdept.md)
+## Tutorials
 
 ## API's
 
@@ -19,13 +16,15 @@
     * [Invoices](apis/rest-api/routes/invoices.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
-## Tutorials
+## SDK
+
+* [Etherspay NPM SDK](sdk/etherspay-npm-sdk.md)
+
+## Smart Contracts
+
+* [Etherspay Token ($EPT)](smart-contracts/etherspay-token-usdept.md)
 
 ## FAQ
 
 * [Etherspay FAQ](faq/etherspay-faq.md)
 * [Developers FAQ](faq/developers-faq.md)
-
-## SDK
-
-* [Etherspay NPM SDK](sdk/etherspay-npm-sdk.md)
