@@ -3,17 +3,18 @@
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
 
-## Tutorials
-
 ## API's
 
 * [REST API](apis/rest-api/README.md)
+  * [Introduction](apis/rest-api/introduction.md)
   * [Authentication](apis/rest-api/authentication.md)
   * [Error handling](apis/rest-api/error-handling.md)
   * [Routes](apis/rest-api/routes/README.md)
-    * [Balance](apis/rest-api/routes/balance.md)
+    * [Payments](apis/rest-api/routes/payments.md)
+    * [Customers](apis/rest-api/routes/customers.md)
+    * [Products](apis/rest-api/routes/products.md)
+    * [Balances](apis/rest-api/routes/balances.md)
     * [Promotion Codes](apis/rest-api/routes/promotion-codes.md)
-    * [Invoices](apis/rest-api/routes/invoices.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
 ## SDK

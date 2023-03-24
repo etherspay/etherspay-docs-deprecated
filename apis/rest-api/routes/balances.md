@@ -1,8 +1,8 @@
 ---
-description: https://api.etherspay.com
+description: https://etherspay.com
 ---
 
-# Balance
+# Balances
 
 ### Fetching project balance
 

@@ -1,5 +1,5 @@
 ---
-description: https://api.etherspay.com
+description: https://etherspay.com
 ---
 
 # Promotion Codes
