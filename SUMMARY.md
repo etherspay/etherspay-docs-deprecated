@@ -3,6 +3,10 @@
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
 
+## Payments
+
+* [Overview](payments/overview.md)
+
 ## API's
 
 * [REST API](apis/rest-api/README.md)
@@ -13,7 +17,7 @@
     * [Payments](apis/rest-api/routes/payments.md)
     * [Customers](apis/rest-api/routes/customers.md)
     * [Products](apis/rest-api/routes/products.md)
-    * [Balances](apis/rest-api/routes/balances.md)
+    * [Balances](apis/rest-api/routes/balance.md)
     * [Promotion Codes](apis/rest-api/routes/promotion-codes.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
