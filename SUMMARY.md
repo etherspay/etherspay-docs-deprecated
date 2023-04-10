@@ -20,13 +20,13 @@
 * [REST API](apis/rest-api/README.md)
   * [Introduction](apis/rest-api/introduction.md)
   * [Authentication](apis/rest-api/authentication.md)
-  * [Error handling](apis/rest-api/error-handling.md)
+  * [Errors](apis/rest-api/errors.md)
   * [Routes](apis/rest-api/routes/README.md)
     * [Payments](apis/rest-api/routes/payments.md)
     * [Customers](apis/rest-api/routes/customers.md)
     * [Products](apis/rest-api/routes/products.md)
     * [Balances](apis/rest-api/routes/balance.md)
-    * [Promotion Codes](apis/rest-api/routes/promotion-codes.md)
+    * [Coupons](apis/rest-api/routes/coupons.md)
     * [Transactions](apis/rest-api/routes/transactions.md)
 
 ## SDK

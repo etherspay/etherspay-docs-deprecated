@@ -10,7 +10,7 @@ etherspay has its own ERC20 based token. The purpose of $EPT is to reward users 
 
 The source code of the $EPT token is available on Github and is written down below and the contract ABI is available [<mark style="color:green;">**here**</mark>](https://github.com/rayorole/etherspay-token/blob/dev/build/contracts/ERC20.json)
 
-{% embed url="https://github.com/rayorole/etherspay-token" %}
+{% embed url="https://github.com/etherspay/etherspay-token" %}
 
 {% tabs %}
 {% tab title="Token.sol" %}

@@ -4,7 +4,7 @@ description: https://etherspay.com
 
 # Authentication
 
-The etherspay REST API uses API keys to authenticate requests. You can view and manage your API keys in the developers page in your project dashboard.
+The Etherspay REST API uses API keys to authenticate requests. You can view and manage your API keys in the developers page in your project dashboard.
 
 {% hint style="warning" %}
 Do not share your API keys with anyone!
@@ -12,7 +12,7 @@ Do not share your API keys with anyone!
 
 All API requests must be made over [HTTPS](http://en.wikipedia.org/wiki/HTTP\_Secure). Calls made over plain HTTP will fail. API requests without authentication will also fail.
 
-Insert your project secret in the **x-api-key** header.
+Insert your project API key in the **x-api-key** header.
 
 {% tabs %}
 {% tab title="cURL" %}

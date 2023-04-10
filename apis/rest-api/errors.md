@@ -2,7 +2,7 @@
 description: https://etherspay.com
 ---
 
-# Error handling
+# Errors
 
 The etherspay REST API will return conventional HTTP status codes to indicate the success or failure of an API request. You can use these codes to handle errors in your application.
 
@@ -19,3 +19,20 @@ These are the most common codes returned by the etherspay API.
 | 409 - Conflict                     | The request conflicts with another request                               |
 | 429 - Too Many Requests            | Too many requests hit the API too quickly.                               |
 | 500, 502, 503, 504 - Server Errors | Something went wrong on Etherspay's end.                                 |
+
+## Handling errors
+
+{% tabs %}
+{% tab title="Node.js" %}
+```javascript
+switch (err.type) {
+  case 'Etherspay-NetworkError':
+    // Network error
+    break;
+  default:
+    // Handle any other types of unexpected errors
+    break;
+}
+```
+{% endtab %}
+{% endtabs %}
