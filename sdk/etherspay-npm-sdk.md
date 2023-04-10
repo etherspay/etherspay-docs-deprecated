@@ -1,4 +1,4 @@
-# Etherspay NPM SDK
+# Etherspay.js SDK
 
 ### Introduction
 

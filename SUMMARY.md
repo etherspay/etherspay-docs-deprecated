@@ -5,7 +5,7 @@
 
 ## Services
 
-* [Payments](services/payments.md)
+* [Payments](payments/overview.md)
 * [Checkout](services/checkout.md)
 * [Payment links](services/payment-links.md)
 * [Billing](services/billing.md)
@@ -31,7 +31,7 @@
 
 ## SDK
 
-* [Etherspay.js SDK](sdk/etherspay.js-sdk.md)
+* [Etherspay.js SDK](sdk/etherspay-npm-sdk.md)
 
 ## Smart Contracts
 
