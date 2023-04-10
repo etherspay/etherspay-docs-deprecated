@@ -4,32 +4,54 @@ description: Explore all of Etherspay here
 
 # Welcome!
 
+{% hint style="warning" %}
+Etherspay is under development, and not available yet
+{% endhint %}
+
 This documentation is designed to provide comprehensive information on how to use Etherspay to accept and process cryptocurrency payments for your project or business.
 
-## What is Etherspay?
+## Introduction
 
 Etherspay is a secure and reliable platform that enables businesses to accept payments in any [ERC20](https://ethereum.org/en/developers/docs/standards/tokens/erc-20/) crypto token. The project is backed by Web3 technology and supports multiple blockchains.
 
-Throughout this documentation, we will provide detailed information on how to set up and configure your Etherspay account, how to integrate our payment processor into your website or application, and how to manage your transactions and view your payment history.
+Throughout this documentation, we will provide detailed information on how to set up and configure your Etherspay account, how to integrate our payment processor into your website or application.
 
-## Supported blockchains
+## Try it out
 
-The following blockchains are supported by Etherspay
+<details>
 
-* Ethereum
-* Binance Smart Chain
-* Polygon
-* Testnets
+<summary>Create a checkout session</summary>
 
-More information about these networks can be found in our blog.
+<pre class="language-javascript"><code class="lang-javascript"><strong>
+</strong><strong>import Etherspay from "etherspay";
+</strong><strong>const etherspay = new Etherspay("#api-key")
+</strong><strong>
+</strong><strong>const session = await etherspay.checkout.create({
+</strong><strong>  success_url: 'https://example.com/success',
+</strong>  line_items: [
+    {price: '#price-id', quantity: 2},
+  ],
+  mode: 'payment',
+<strong>})
+</strong><strong>
+</strong><strong>console.log(session.url) // https://buy.etherspay.com/75442486-0878-440c
+</strong></code></pre>
 
-## Supported tokens
+</details>
 
-All tokens are supported as long as they follow the ERC20 token standard and are deployed to one of the supported blockchains.
+<details>
 
-{% hint style="info" %}
-The ERC20 token standard is available [here](https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
-{% endhint %}
+<summary>Create a product</summary>
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>import Etherspay from "etherspay";
+</strong>const etherspay = new Etherspay("#api-key")
+
+const product = await etherspay.products.create({
+  name: 'White T-shirt',
+});
+</code></pre>
+
+</details>
 
 ## Browse by service
 

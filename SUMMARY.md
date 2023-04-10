@@ -3,9 +3,17 @@
 * [Welcome!](README.md)
 * [Getting started](getting-started.md)
 
-## Payments
+## Services
 
-* [Overview](payments/overview.md)
+* [Payments](services/payments.md)
+* [Checkout](services/checkout.md)
+* [Payment links](services/payment-links.md)
+* [Billing](services/billing.md)
+* [Invoicing](services/invoicing.md)
+* [Escrow](services/escrow.md)
+* [Token creation](services/token-creation.md)
+* [Token lending](services/token-lending.md)
+* [Components](services/components.md)
 
 ## API's
 
@@ -23,7 +31,7 @@
 
 ## SDK
 
-* [Etherspay NPM SDK](sdk/etherspay-npm-sdk.md)
+* [Etherspay.js SDK](sdk/etherspay.js-sdk.md)
 
 ## Smart Contracts
 
