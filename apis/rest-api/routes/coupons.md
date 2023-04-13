@@ -10,7 +10,7 @@ A Promotion Code represents a customer-redeemable code.
 
 You can also manage your coupons in the project dashboard.
 
-{% swagger method="post" path="coupons" baseUrl="https://api.etherspay.com/v1/" summary="Coupon creation is also accessible via the API." %}
+{% swagger method="post" path="coupons" baseUrl="https://api.etherspay.com/v1/" summary="Coupon creation is accessible via the API." %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -79,7 +79,7 @@ curl https://api.etherspay.com/v1/coupons \
 ```javascript
 const stripe = require('stripe')('sk_test_51JMIa9DARRNpGJZ7JrU8HfeKO1Ckkvl6e4svRLiHl3GsUZBX1FJgZEOrIY5BVMVnoXabwJVEhebYiOcUeS2AHh1X004xbHVPeM');
 
-const promotionCode = await etp.promotioncodes.create({
+const promotionCode = await etp.coupons.create({
   name: 'My code', // Required
   code: 'Z4OV52SU', // Required
   // Other params (see above)
@@ -87,3 +87,6 @@ const promotionCode = await etp.promotioncodes.create({
 ```
 {% endtab %}
 {% endtabs %}
+
+## Retrieve a coupon
+
