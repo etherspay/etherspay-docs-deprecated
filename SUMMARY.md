@@ -41,3 +41,8 @@
 
 * [Etherspay FAQ](faq/etherspay-faq.md)
 * [Developers FAQ](faq/developers-faq.md)
+
+***
+
+* [Etherspay Privacy Policy](etherspay-privacy-policy.md)
+* [Etherspay Terms Of Service](etherspay-terms-of-service.md)
