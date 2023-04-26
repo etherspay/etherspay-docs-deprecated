@@ -16,6 +16,14 @@ Etherspay is a secure and reliable platform that enables businesses to accept pa
 
 Throughout this documentation, we will provide detailed information on how to set up and configure your Etherspay account, how to integrate our payment processor into your website or application.
 
+
+
+## Whitepaper
+
+Etherspay has a document to explain the technical background, problems, info and more about the project.
+
+{% embed url="https://etherspay.notion.site/Whitepaper-15e3740da9d043a09e724d436dd65668" %}
+
 ## Try it out
 
 <details>
