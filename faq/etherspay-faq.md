@@ -17,3 +17,5 @@ Yes, we charge a small transaction fee for using our payment service. The exact 
 Yes, our payment service is available to users worldwide. However, some countries may have restrictions on the use of cryptocurrencies or our payment service, so we recommend checking your local laws and regulations before using our platform.
 
 ####
+
+### If you have any further questions or concerns, please feel free to contact us directly through our website or customer support channels.
