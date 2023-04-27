@@ -1,5 +1,7 @@
 ---
-description: 'Last updated: April 26, 2023'
+description: >-
+  Your privacy matters to us. Read our policy to learn how we collect and
+  protect your personal information.
 ---
 
 # Etherspay Privacy Policy
