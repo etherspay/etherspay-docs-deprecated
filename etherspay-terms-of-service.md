@@ -1,5 +1,7 @@
 ---
-description: 'Last updated: April 26, 2023'
+description: >-
+  By using our service, you agree to our terms of service. Please read them
+  carefully to understand your rights and responsibilities.
 ---
 
 # Etherspay Terms Of Service
