@@ -37,6 +37,13 @@
 
 * [Etherspay Token ($EPT)](smart-contracts/etherspay-token-usdept.md)
 
+## Wallet
+
+* [Guides](wallet/guides/README.md)
+  * [Import an existing wallet](wallet/guides/import-an-existing-wallet.md)
+  * [Create a new wallet](wallet/guides/create-a-new-wallet.md)
+* [Download](https://wallet.etherspay.com/)
+
 ## FAQ
 
 * [Etherspay FAQ](faq/etherspay-faq.md)
